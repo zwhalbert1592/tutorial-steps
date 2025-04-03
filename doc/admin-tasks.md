@@ -1,6 +1,6 @@
 # Admin Tasks / Devops
 
-This page rpovides afew examples of admin/devops related commands.
+This page provides a few examples of admin/devops related commands.
 
 ## Ascon
 
@@ -26,7 +26,7 @@ Get a list of commands that component understands
 
 ## Dctl
 
-Dctl allows to control daemons.
+Dctl allows you to control daemons.
 Use `manc` to get desired component SID
 ```
 > dctl{sid=123 action=stop};
@@ -35,7 +35,7 @@ Use `manc` to get desired component SID
 
 ## Mongo Db management
 Mongo db connector understands `directdb` component command. It is used for 
-general mongo management and usefull for Chronicle and Minidp management as well.
+general mongo management and useful for Chronicle and Minidp management as well.
 
 Assuming that `manc` returned `sid=123` for "Connector.MongoClient"
 
